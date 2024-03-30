@@ -9,3 +9,13 @@ variable "my_bucket_name" {
     type = string
     default = "demo-terraform-bucket10001"
 }
+
+variable "access_key" {
+    type = string
+    sensitve = true
+}
+
+variable "secret_key" {
+    type = string
+    sensitve = true
+}
